@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ZCOOL+QingKe+HuangYou&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Balsamiq Sans', cursive;
+    box-sizing: border-box;
+}
+
+#logo {
+    display: flex;
+    margin: 0 10px;
+    color: white;
+    align-items: center;
+}
+
+#logo img {
+    height: 197px;
+    width: 410px;
+    margin: -55px 4px;
+    filter: brightness(0) invert(1);
+    margin-left: -34px;
+    margin-right: 35px;
+   
+}
+
+#navbar {
+    padding: 13px 14px;
+    position: absolute;
+    width: 100%;
+}
+/* #navbar::before {
+    content: "";
+    /* padding: 13px 14px; 
+    background-color: black;
+    z-index: -1;
+    opacity: 0.5;
+    height: 116px;
+    position: fixed;
+    width: 100%;
+    margin: -15px;
+} */
+
+#navbar ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#navbar li {
+    list-style: none;
+    margin: 0px 27px;
+}
+
+#navbar li a {
+    text-decoration: none;
+    padding: 11px 11px;
+    color: black;
+    font-size:21px;
+}
+
+#navbar li a:hover {
+    color: red;
+}
+
+div {
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+}
+
+#introSection::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.88;
+    background: center / cover no-repeat url("/static/bg.jpg");
+}
+
+#introSection {
+    height: 656px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+    font-size: 51px;
+    color: white;
+}
+
+#introSection div.small {
+    font-size: 40px;
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+}
+
+#sponserSection {
+    height: 300px;
+    background-color: rgb(254, 245, 203);
+    ;
+}
+
+#missionSection {
+    height: 328px;
+    display: block;
+    margin: auto;
+    width: 67%;
+}
+
+#sponserSection h2 {
+    text-align: center;
+    padding-top: 34px;
+}
+
+#missionSection h2 {
+    text-align: center;
+    padding-top: 34px;
+}
+
+.card h3 {
+    text-align: center;
+    padding-top: 12px;
+    justify-self: center;
+}
+
+.card {
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 28%;
+    height: 203px;
+    margin: 11px 22px;
+    display: inline-block;
+}
+
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-img {
+    height: 112px;
+    padding: 19px 5px;
+    padding-right: 0;
+
+}
+.card-img img{
+    height:inherit;
+}
+.card-content{
+    font-size: 14px;
+}
+
+#footer {
+    height: 100px;
+    background-color: black;
+}

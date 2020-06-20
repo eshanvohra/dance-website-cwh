@@ -1,0 +1,54 @@
+//- index.pug
+doctype html
+html
+  head
+    title Radiant Dance Academy
+    style
+      include ../static/style.css
+  body
+    nav#navbar.top
+        ul
+            div#logo
+              img(src="/static/logo.png")
+              
+            li #[a(href="/") Home]
+            li #[a(href="/") Class Info]
+            li #[a(href="/") Services]
+            li #[a(href="/") About us]
+            li #[a(href="/") Contact us]
+    section#introSection
+        div Welcome to Radiant Dance Academy
+        div.small Eat Sleep Dance Repeat
+
+    section#missionSection
+        h2 Our Mission
+        div.card
+          h3 Dance Perfection
+            div.card-box
+              div.card-img
+                img(src="/static/dance2.png")
+              div.card-content
+                    p Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, similique?
+        div.card
+          h3 Expert Guidance
+             div.card-box
+              div.card-img
+                img(src="/static/dance1.png")
+              div.card-content
+                    p Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, similique?
+        div.card
+          h3 Dance the way you like
+             div.card-box
+              div.card-img
+                img(src="/static/dance2.png")
+              div.card-content
+                    p Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, similique?
+
+    section#sponserSection
+        h2 Our Sponsers
+
+    footer#footer
+        | footer here
+ 
+    script
+      include ../static/index.js
