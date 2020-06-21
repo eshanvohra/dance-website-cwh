@@ -1,0 +1,25 @@
+//- layout.pug
+html
+  head
+    title Radiant Dance Academy
+    block scripts
+    block style
+      
+  body
+    nav#navbar.top
+        ul
+            div#logo
+              img(src="/static/logo.png")
+              
+            li #[a(href="/home") Home]
+            li #[a(href="/") Class Info]
+            li #[a(href="/") Services]
+            li #[a(href="/") About us]
+            li #[a(href="/contact") Contact us]
+    block content
+        
+    block foot
+        footer#footer
+            | Copyright &copy; 1900-2020 Radiant Academy Inc. USA.
+            |  All Rights Reserved.
+ 

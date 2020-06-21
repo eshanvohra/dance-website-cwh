@@ -26,8 +26,9 @@
 
 #navbar {
     padding: 13px 14px;
-    position: absolute;
+    position: top;
     width: 100%;
+    background-color: #88827c;
 }
 /* #navbar::before {
     content: "";
@@ -78,7 +79,7 @@ div {
 }
 
 #introSection {
-    height: 656px;
+    height: 721px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -148,8 +149,22 @@ div {
 .card-content{
     font-size: 14px;
 }
+#sponsers{
+    height:200px;
+    max-width: 900px;
+    margin:auto;
+
+}
+#spImage{
+    height: 120px;
+    margin: 41px 24px;
+}
 
 #footer {
-    height: 100px;
+    height: 51px;
     background-color: black;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
 }

@@ -1,21 +1,12 @@
-//- index.pug
-doctype html
-html
-  head
-    title Radiant Dance Academy
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+block style
     style
       include ../static/style.css
-  body
-    nav#navbar.top
-        ul
-            div#logo
-              img(src="/static/logo.png")
-              
-            li #[a(href="/") Home]
-            li #[a(href="/") Class Info]
-            li #[a(href="/") Services]
-            li #[a(href="/") About us]
-            li #[a(href="/") Contact us]
+block content
+    
     section#introSection
         div Welcome to Radiant Dance Academy
         div.small Eat Sleep Dance Repeat
@@ -52,9 +43,6 @@ html
           img(src="/static/sponser2.png", alt="sponser3" id="spImage")
           img(src="/static/sponser3.png", alt="sponser4" id="spImage")
 
-    footer#footer
-        | Copyright &copy; 1900-2020 Radiant Academy Inc. USA.
-        |  All Rights Reserved.
- 
-    script
-      include ../static/index.js
+    
+   
+    
